@@ -45,14 +45,14 @@ class CustomerDetailsFragment : Fragment() {
             val transferredAmount = binding.amountEdittext.text.toString().toDouble()
             if (transferredAmount > selectedCustomer.currentBalance) {
                 Toast.makeText(
-                    requireContext(),
+                    requireActivity(),
                     getString(R.string.transfer_amount_greater_than),
                     Toast.LENGTH_SHORT
                 ).show()
             } else {
                 viewModel.makeTransaction(selectedCustomer.name, transferredAmount)
                 Toast.makeText(
-                    requireContext(),
+                    requireActivity(),
                     getString(R.string.transaction_successful),
                     Toast.LENGTH_SHORT
                 ).show()
