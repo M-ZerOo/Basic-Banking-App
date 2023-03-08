@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Basic Banking</string>
+
+    <string name="bank_image_content_desc">Safe vault image</string>
+    <string name="bank_title">Basic Banking App</string>
+    <string name="customers">Customers</string>
+    <string name="transactions">Transactions</string>
+    <string name="details">Details</string>
+
+    <string name="name_label">Name:</string>
+    <string name="email_label">Email:</string>
+    <string name="phone_number_label">Phone Number:</string>
+    <string name="current_balance_label">Current Balance:</string>
+    <string name="send_to_hint">Receiver</string>
+    <string name="amount_hint">Transfer amount</string>
+    <string name="transfer_button">Transfer</string>
+    <string name="transfer_amount_greater_than">The transferred amount greater than your balance!</string>
+    <string name="transaction_successful">The transaction is completed successfully.</string>
+
+    <string name="from_label">From:</string>
+    <string name="to_label">To:</string>
+    <string name="amount_label">Amount:</string>
+</resources>
